@@ -153,7 +153,7 @@
 }
 @media (max-width: 650px) {
   .text {
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: bold;
   }
 }
@@ -216,13 +216,6 @@
   background-color: #937fe2;
   color: black;
   transform: scale(1.1);
-}
-
-.margin {
-  margin: 6em auto 0 auto 0;
-  margin-top: 5%;
-  justify-content: center;
-  display: flex;
 }
 
 @media (max-width: 600px) {
@@ -395,6 +388,13 @@ body {
 
 .tagvisibility {
   visibility: hidden;
+}
+
+.margin {
+  margin: 6em auto 0 auto 0;
+  margin-top: 5%;
+  justify-content: center;
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
