@@ -261,6 +261,48 @@ body {
     }
 }
 
+@media (max-width: 212px) {
+    .header {
+        @include tag-center;
+        height: 3.6rem;
+        width: 100%;
+
+        .logo img {
+            height: 20px;
+            width: auto;
+        }
+
+        .nav-links {
+            a {
+                font-size: 0.39rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 212px) {
+    .header {
+        .btn {
+            text-decoration: none;
+
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 0.2rem;
+                width: 25px;
+                height: 10px;
+            }
+
+            button:hover {
+                background-color: #b09ff3;
+                color: #f5f3ff;
+                transform: scale(1.1);
+            }
+
+        }
+    }
+}
 //queria ayuda si con los tamaños del media 
 //Mira   xs: 0,
 //sm: 576px,
