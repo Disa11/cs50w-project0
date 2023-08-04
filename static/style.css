@@ -199,15 +199,17 @@ body {
   padding: 0;
   font-family: "Lobster Two", cursive;
   background-color: rgba(255, 255, 255, 0.9529411765);
+  border-radius: 50px;
   justify-content: space-between;
-  height: 85px;
-  padding: 5px 10%;
+  height: 4.1rem;
+  width: 100%;
+  padding: 2% 15%;
 }
 .header .logo {
   cursor: pointer;
 }
 .header .logo img {
-  height: 70px;
+  height: 60px;
   width: auto;
   transition: all 0.3s;
 }
@@ -227,7 +229,7 @@ body {
 }
 .header .nav-links a {
   color: #c7bcf7;
-  font-size: 700;
+  font-size: 1.3rem;
   text-decoration: none;
 }
 .header .nav-links a:hover {
@@ -237,16 +239,33 @@ body {
   font-weight: 700;
   color: #5736d8;
   padding: 9px 25px;
-  background: rgb(75, 235, 213);
+  background: rgb(103, 240, 222);
   border: none;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
 .header .btn button:hover {
-  background-color: #ac9fe1;
-  color: #c7bcf7;
+  background-color: #b09ff3;
+  color: #f5f3ff;
   transform: scale(1.1);
+}
+
+.margin {
+  margin: 6em auto 0 auto 0;
+  margin-top: 5%;
+  justify-content: center;
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
