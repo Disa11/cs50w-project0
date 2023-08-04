@@ -66,13 +66,13 @@ body {
     @include text-letter;
     background-color: #fffffff3;
     border-radius: 50px;
-    justify-content: space-between;//felx-end
+    justify-content: space-between; //felx-end
     height: 4.1rem;
     width: 100%;
     padding: 2% 15%;
 
     .logo {
-        cursor: pointer;//margin auto
+        cursor: pointer; //margin auto
 
         img {
             height: 60px;
@@ -88,12 +88,12 @@ body {
     .nav-links {
         list-style: none;
         font-size: 280%;
+
         li {
             display: inline-block;
             padding: 0 20px;
-            
-            
         }
+
         li:hover {
             transform: scale(1.2);
         }
@@ -101,8 +101,9 @@ body {
         a {
             color: #c7bcf7;
             font-size: 1.3rem;
-            text-decoration:  none;
+            text-decoration: none;
         }
+
         a:hover {
             color: #5b3bdb;
         }
@@ -110,9 +111,9 @@ body {
 
     .btn button {
         font-weight: 700;
-        color: #5736d8;
+        color:  #f8f8fa;
         padding: 9px 25px;
-        background: rgb(103, 240, 222);
+        background: #b09ff3;
         border: none;
         border-radius: 50px;
         cursor: pointer;
@@ -120,8 +121,8 @@ body {
     }
 
     .btn button:hover {
-        background-color: #b09ff3;
-        color:#f5f3ff ; 
+        background-color: #937fe2;
+        color: black;
         transform: scale(1.1);
     }
 }
@@ -136,11 +137,89 @@ body {
 @media (max-width: 600px) {
     .header {
         @include tag-center;
-        height: 5%;
+        height: 4.5rem;
         width: 100%;
+
+        .logo img {
+            height: 50px;
+            width: auto;
+        }
+
+        .nav-links {
+            a {
+                font-size: 1rem;
+            }
+        }
     }
 }
 
+@media (max-width: 610px) {
+    .header {
+        .btn {
+            text-decoration: none;
+
+            button {
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 0.7rem;
+                width: 80px;
+            }
+
+            button:hover {
+                background-color: #b09ff3;
+                color: #f5f3ff;
+                transform: scale(1.1);
+            }
+
+        }
+    }
+}
+
+@media (max-width: 310px) {
+    .header {
+        @include tag-center;
+        height: 3.9rem;
+        width: 100%;
+
+        .logo img {
+            height: 40px;
+            width: auto;
+        }
+
+        .nav-links {
+            a {
+                font-size: 0.7rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 310px) {
+    .header {
+        .btn {
+            text-decoration: none;
+
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 0.5rem;
+                width: 60px;
+            }
+
+            button:hover {
+                background-color: #b09ff3;
+                color: #f5f3ff;
+                transform: scale(1.1);
+            }
+
+        }
+    }
+}
+
+//queria ayuda si con los tamaños del media 
 //Mira   xs: 0,
 //sm: 576px,
 //md: 768px,

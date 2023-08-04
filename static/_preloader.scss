@@ -179,3 +179,10 @@ $text-Dur: 800ms;
     }
 }
 
+@media (max-width: 650px){
+    .text {
+        font-size: 6rem;
+        font-weight: bold;
+        
+    }
+}
