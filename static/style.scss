@@ -1,4 +1,18 @@
 @use 'preloader';
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@mixin tag-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin text-letter {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster Two', cursive;
+}
 
 body {
     font-size: 40.5%;
@@ -11,14 +25,31 @@ body {
 }
 
 @-o-keyframes back-gradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
 }
+
 @keyframes back-gradient {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
 }
 
 .hidden {
@@ -29,3 +60,66 @@ body {
     visibility: hidden;
 }
 
+//hay que redondear el navbar xd
+.header {
+    @include tag-center;
+    @include text-letter;
+    background-color: #fffffff3;
+    justify-content: space-between;//felx-end
+    height: 85px;
+    padding: 5px 10%;
+
+    .logo {
+        cursor: pointer;//margin auto
+
+        img {
+            height: 70px;
+            width: auto;
+            transition: all 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.2);
+        }
+    }
+
+    .nav-links {
+        list-style: none;
+        font-size: 280%;
+        li {
+            display: inline-block;
+            padding: 0 20px;
+            
+            
+        }
+        li:hover {
+            transform: scale(1.2);
+        }
+
+        a {
+            color: #c7bcf7;
+            font-size: 700;
+            text-decoration:  none;
+        }
+        a:hover {
+            color: #5b3bdb;
+        }
+    }
+
+    .btn button {
+        font-weight: 700;
+        color: #5736d8;
+        padding: 9px 25px;
+        background: rgb(75, 235, 213);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+    }
+
+    .btn button:hover {
+        background-color: #ac9fe1;
+        color:#c7bcf7 ; 
+        transform: scale(1.1);
+    }
+}

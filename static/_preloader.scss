@@ -88,6 +88,7 @@ $text-Dur: 800ms;
 .delay {
     animation-delay: $waveDur / 2;
 }
+
 @keyframes text {
     0% {
         transform: translate3d(0, 0, 0);

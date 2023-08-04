@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Muli");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 .container {
   position: absolute;
   width: 24rem;
@@ -187,6 +188,65 @@ body {
 
 .tagvisibility {
   visibility: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lobster Two", cursive;
+  background-color: rgba(255, 255, 255, 0.9529411765);
+  justify-content: space-between;
+  height: 85px;
+  padding: 5px 10%;
+}
+.header .logo {
+  cursor: pointer;
+}
+.header .logo img {
+  height: 70px;
+  width: auto;
+  transition: all 0.3s;
+}
+.header .logo img:hover {
+  transform: scale(1.2);
+}
+.header .nav-links {
+  list-style: none;
+  font-size: 280%;
+}
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.header .nav-links li:hover {
+  transform: scale(1.2);
+}
+.header .nav-links a {
+  color: #c7bcf7;
+  font-size: 700;
+  text-decoration: none;
+}
+.header .nav-links a:hover {
+  color: #5b3bdb;
+}
+.header .btn button {
+  font-weight: 700;
+  color: #5736d8;
+  padding: 9px 25px;
+  background: rgb(75, 235, 213);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.header .btn button:hover {
+  background-color: #ac9fe1;
+  color: #c7bcf7;
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */
