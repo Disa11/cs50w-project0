@@ -2,7 +2,7 @@
 $waveDur: 1600ms;
 $text-Dur: 800ms;
 
-.container {
+.kanuthcontainer{
     position: absolute;
     width: 24rem;
     height: 10rem;
@@ -10,6 +10,7 @@ $text-Dur: 800ms;
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 .text {
     font-family: 'Muli', Helvetica, sans-serif;

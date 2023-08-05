@@ -47,7 +47,6 @@ body {
     }
 }
 
-//hay que redondear el navbar xd
 .hidden {
     overflow: hidden;
 }
@@ -61,6 +60,7 @@ body {
     margin-top: 5%;
     justify-content: center;
     display: flex;
+    align-items: center;
 }
 
 #welcome-text {
@@ -78,6 +78,10 @@ body {
         color: aliceblue;
         font-size: 1.5rem;
     }
+}
+
+.topsep {
+    padding-bottom: 100%;
 }
 
 @media (max-width: 1000px) {
