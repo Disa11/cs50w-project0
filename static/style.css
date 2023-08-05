@@ -153,49 +153,10 @@
 }
 @media (max-width: 650px) {
   .text {
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: bold;
   }
 }
-body {
-  font-size: 40.5%;
-  font-family: "Muli", Helvetica, sans-serif;
-  background: linear-gradient(270deg, #5b3bdb, #907ae8, #9286c5, #c7bcf7, #c7bcf7, #7f67e4, #ac9fe1);
-  background-size: 1400% 1400%;
-  -o-animation: back-gradient 30s ease infinite;
-  animation: back-gradient 30s ease infinite;
-}
-
-@-o-keyframes back-gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@keyframes back-gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-.hidden {
-  overflow: hidden;
-}
-
-.tagvisibility {
-  visibility: hidden;
-}
-
 .header {
   display: flex;
   justify-content: center;
@@ -255,13 +216,6 @@ body {
   background-color: #937fe2;
   color: black;
   transform: scale(1.1);
-}
-
-.margin {
-  margin: 6em auto 0 auto 0;
-  margin-top: 5%;
-  justify-content: center;
-  display: flex;
 }
 
 @media (max-width: 600px) {
@@ -362,6 +316,89 @@ body {
     color: #f5f3ff;
     transform: scale(1.1);
   }
+}
+@media (max-width: 212px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.6rem;
+    width: 100%;
+  }
+  .header .logo img {
+    height: 20px;
+    width: auto;
+  }
+  .header .nav-links a {
+    font-size: 0.39rem;
+  }
+}
+@media (max-width: 212px) {
+  .header .btn {
+    text-decoration: none;
+  }
+  .header .btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.2rem;
+    width: 25px;
+    height: 10px;
+  }
+  .header .btn button:hover {
+    background-color: #b09ff3;
+    color: #f5f3ff;
+    transform: scale(1.1);
+  }
+}
+body {
+  font-size: 40.5%;
+  font-family: "Muli", Helvetica, sans-serif;
+  background: linear-gradient(270deg, #5b3bdb, #907ae8, #9286c5, #c7bcf7, #c7bcf7, #7f67e4, #ac9fe1);
+  background-size: 1400% 1400%;
+  -o-animation: back-gradient 30s ease infinite;
+  animation: back-gradient 30s ease infinite;
+}
+
+@-o-keyframes back-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes back-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.hidden {
+  overflow: hidden;
+}
+
+.tagvisibility {
+  visibility: hidden;
+}
+
+.margin {
+  margin: 6em auto 0 auto 0;
+  margin-top: 5%;
+  justify-content: center;
+  display: flex;
+}
+
+.welcome-text {
+  font-family: "Lobster Two", cursive;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,18 +1,6 @@
 @use 'preloader';
+@use 'navbar';
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-@mixin tag-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@mixin text-letter {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Lobster Two', cursive;
-}
 
 body {
     font-size: 40.5%;
@@ -52,79 +40,13 @@ body {
     }
 }
 
+//hay que redondear el navbar xd
 .hidden {
     overflow: hidden;
 }
 
 .tagvisibility {
     visibility: hidden;
-}
-
-//hay que redondear el navbar xd
-.header {
-    @include tag-center;
-    @include text-letter;
-    background-color: #fffffff3;
-    border-radius: 50px;
-    justify-content: space-between; //felx-end
-    height: 4.1rem;
-    width: 100%;
-    padding: 2% 15%;
-
-    .logo {
-        cursor: pointer; //margin auto
-
-        img {
-            height: 60px;
-            width: auto;
-            transition: all 0.3s;
-        }
-
-        img:hover {
-            transform: scale(1.2);
-        }
-    }
-
-    .nav-links {
-        list-style: none;
-        font-size: 280%;
-
-        li {
-            display: inline-block;
-            padding: 0 20px;
-        }
-
-        li:hover {
-            transform: scale(1.2);
-        }
-
-        a {
-            color: #c7bcf7;
-            font-size: 1.3rem;
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: #5b3bdb;
-        }
-    }
-
-    .btn button {
-        font-weight: 700;
-        color:  #f8f8fa;
-        padding: 9px 25px;
-        background: #b09ff3;
-        border: none;
-        border-radius: 50px;
-        cursor: pointer;
-        transition: all 0.3s ease 0s;
-    }
-
-    .btn button:hover {
-        background-color: #937fe2;
-        color: black;
-        transform: scale(1.1);
-    }
 }
 
 .margin {
@@ -134,131 +56,8 @@ body {
     display: flex;
 }
 
-@media (max-width: 600px) {
-    .header {
-        @include tag-center;
-        height: 4.5rem;
-        width: 100%;
-
-        .logo img {
-            height: 50px;
-            width: auto;
-        }
-
-        .nav-links {
-            a {
-                font-size: 1rem;
-            }
-        }
-    }
-}
-
-@media (max-width: 610px) {
-    .header {
-        .btn {
-            text-decoration: none;
-
-            button {
-
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                font-size: 0.7rem;
-                width: 80px;
-            }
-
-            button:hover {
-                background-color: #b09ff3;
-                color: #f5f3ff;
-                transform: scale(1.1);
-            }
-
-        }
-    }
-}
-
-@media (max-width: 310px) {
-    .header {
-        @include tag-center;
-        height: 3.9rem;
-        width: 100%;
-
-        .logo img {
-            height: 40px;
-            width: auto;
-        }
-
-        .nav-links {
-            a {
-                font-size: 0.7rem;
-            }
-        }
-    }
-}
-
-@media (max-width: 310px) {
-    .header {
-        .btn {
-            text-decoration: none;
-
-            button {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                font-size: 0.5rem;
-                width: 60px;
-            }
-
-            button:hover {
-                background-color: #b09ff3;
-                color: #f5f3ff;
-                transform: scale(1.1);
-            }
-
-        }
-    }
-}
-
-@media (max-width: 250px) {
-    .header {
-        @include tag-center;
-        height: 3.9rem;
-        width: 100%;
-
-        .logo img {
-            height: 30px;
-            width: auto;
-        }
-
-        .nav-links {
-            a {
-                font-size: 0.5rem;
-            }
-        }
-    }
-}
-
-@media (max-width: 250px) {
-    .header {
-        .btn {
-            text-decoration: none;
-
-            button {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                font-size: 0.3rem;
-                width: 40px;
-            }
-
-            button:hover {
-                background-color: #b09ff3;
-                color: #f5f3ff;
-                transform: scale(1.1);
-            }
-
-        }
-    }
+.welcome-text {
+    font-family: 'Lobster Two', cursive;
 }
 
 //queria ayuda si con los tamaños del media 
