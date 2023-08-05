@@ -397,4 +397,8 @@ body {
   display: flex;
 }
 
+.welcome-text {
+  font-family: "Lobster Two", cursive;
+}
+
 /*# sourceMappingURL=style.css.map */
