@@ -10,6 +10,7 @@
 }
 
 .text {
+  font-family: "Muli", Helvetica, sans-serif;
   position: absolute;
   color: #221f1f;
   font-size: 6rem;
@@ -353,7 +354,6 @@
 }
 body {
   font-size: 40.5%;
-  font-family: "Muli", Helvetica, sans-serif;
   background: linear-gradient(270deg, #5b3bdb, #907ae8, #9286c5, #c7bcf7, #c7bcf7, #7f67e4, #ac9fe1);
   background-size: 1400% 1400%;
   -o-animation: back-gradient 30s ease infinite;
@@ -397,8 +397,59 @@ body {
   display: flex;
 }
 
-.welcome-text {
+#welcome-text {
   font-family: "Lobster Two", cursive;
+  font-size: 3.7rem;
+}
+
+.w2 {
+  @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&family=Open+Sans:wght@300&family=Pacifico&display=swap");
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lobster Two", cursive;
+}
+.w2-text {
+  font-family: "Open Sans", sans-serif;
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1000px) {
+  #welcome-text {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 900px) {
+  #welcome-text {
+    font-size: 3.1rem;
+  }
+}
+@media (max-width: 700px) {
+  #welcome-text {
+    font-size: 2.7rem;
+  }
+}
+@media (max-width: 600px) {
+  #welcome-text {
+    font-size: 2.1rem;
+  }
+}
+@media (max-width: 497px) {
+  #welcome-text {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 380px) {
+  #welcome-text {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 250px) {
+  #welcome-text {
+    font-size: 0.6rem;
+    font-weight: 700;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
