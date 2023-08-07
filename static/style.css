@@ -179,6 +179,7 @@
 }
 .kheader .logo {
   cursor: pointer;
+  margin-left: 2%;
 }
 .kheader .logo img {
   height: 60px;
@@ -199,6 +200,7 @@
 }
 .kheader .navk-klinks li {
   padding: 0 20px;
+  margin: 0 10px;
 }
 .kheader .navk-klinks li:hover {
   transform: scale(1.2);
@@ -211,6 +213,7 @@
   color: #5b3bdb;
 }
 .kheader .btn button {
+  margin-right: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -232,7 +235,7 @@
   .kheader {
     height: 3.35rem;
     width: 100% !important;
-    padding: 2% 5% !important;
+    padding: 2% 3% !important;
   }
   .kheader .logo img {
     height: 30px;
@@ -241,7 +244,7 @@
     padding-left: 0;
   }
   .kheader .navk-klinks li {
-    padding: 0 5px;
+    padding: 0 0;
   }
   .kheader .navk-klinks a {
     font-size: 0.6rem !important;
@@ -250,7 +253,7 @@
     text-decoration: none !important;
   }
   .kheader .btn button {
-    font-size: 0.2rem;
+    font-size: 0.4rem;
     width: 60px;
     height: 17px;
   }
@@ -264,13 +267,14 @@
     height: 39px;
   }
   .kheader .navk-klinks li {
-    padding: 0 10px;
+    padding: 0 2px;
   }
   .kheader .navk-klinks a {
     font-size: 0.73rem !important;
   }
   .kheader .btn {
     text-decoration: none !important;
+    margin-right: 2%;
   }
   .kheader .btn button {
     font-size: 0.5rem;
@@ -286,11 +290,15 @@
   .kheader .logo img {
     height: 45px;
   }
+  .kheader .navk-klinks li {
+    margin: 0 4px;
+  }
   .kheader .navk-klinks a {
     font-size: 0.86rem !important;
   }
   .kheader .btn {
     text-decoration: none !important;
+    margin-right: 2%;
   }
   .kheader .btn button {
     font-size: 0.6rem;
@@ -306,11 +314,15 @@
   .kheader .logo img {
     height: 48px;
   }
+  .kheader .navk-klinks li {
+    margin: 0 6px;
+  }
   .kheader .navk-klinks a {
     font-size: 0.95rem !important;
   }
   .kheader .btn {
     text-decoration: none !important;
+    margin-right: 2%;
   }
   .kheader .btn button {
     font-size: 0.7rem;
@@ -323,14 +335,21 @@
     height: 3.85rem;
     width: 100%;
   }
+  .kheader .logo {
+    margin-left: 6%;
+  }
   .kheader .logo img {
     height: 50px;
+  }
+  .kheader .navk-klinks li {
+    margin: 0 8px;
   }
   .kheader .navk-klinks a {
     font-size: 1.1rem;
   }
   .kheader .btn {
     text-decoration: none !important;
+    margin-right: 6%;
   }
   .kheader .btn button {
     font-size: 0.7rem;
@@ -343,14 +362,21 @@
     height: 4rem;
     width: 100%;
   }
+  .kheader .logo {
+    margin-left: 7.2%;
+  }
   .kheader .logo img {
     height: 57px;
+  }
+  .kheader .navk-klinks li {
+    margin: 0 10px;
   }
   .kheader .navk-klinks a {
     font-size: 1.3rem !important;
   }
   .kheader .btn {
     text-decoration: none !important;
+    margin-right: 7.2%;
   }
   .kheader .btn button {
     font-size: 0.7rem;
@@ -363,14 +389,21 @@
     height: 4.15rem;
     width: 100%;
   }
+  .kheader .logo {
+    margin-left: 7.6%;
+  }
   .kheader .logo img {
     height: 60px;
+  }
+  .kheader .navk-klinks li {
+    margin: 0 10px;
   }
   .kheader .navk-klinks a {
     font-size: 1.5rem !important;
   }
   .kheader .btn {
     text-decoration: none !important;
+    margin-right: 7.6%;
   }
   .kheader .btn button {
     font-size: 1rem;
@@ -383,14 +416,21 @@
     height: 4.3rem;
     width: 100%;
   }
+  .kheader .logo {
+    margin-left: 8%;
+  }
   .kheader .logo img {
-    height: 62x;
+    height: 62px;
+  }
+  .kheader .navk-klinks li {
+    margin: 0 15px;
   }
   .kheader .navk-klinks a {
     font-size: 1.7rem !important;
   }
   .kheader .btn {
     text-decoration: none !important;
+    margin-right: 8% !important;
   }
   .kheader .btn button {
     font-size: 1.08rem;

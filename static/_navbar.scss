@@ -41,6 +41,7 @@ $breakpoints: (
 
     .logo {
         cursor: pointer; //margin auto
+        margin-left: 2%;
 
         img {
             height: 60px;
@@ -64,6 +65,7 @@ $breakpoints: (
 
         li {
             padding: 0 20px;
+            margin: 0 10px;
         }
 
         li:hover {
@@ -83,6 +85,7 @@ $breakpoints: (
     }
 
     .btn button {
+        margin-right: 2%;
         @extend %text-letter;
         display: flex;
         justify-content: center;
@@ -106,18 +109,19 @@ $breakpoints: (
     @include media-up(xxxs) {
         height: 3.35rem;
         width: 100% !important;
-        padding: 2% 5% !important; 
+        padding: 2% 3% !important;
+
         .logo img {
             height: 30px;
-            
+
         }
 
         .navk-klinks {
-  
             padding-left: 0;
             li {
-                padding: 0 5px;
+                padding: 0 0;
             }
+
             a {
 
                 font-size: 0.6rem !important;
@@ -128,7 +132,7 @@ $breakpoints: (
             text-decoration: none !important;
 
             button {
-                font-size: 0.2rem;
+                font-size: 0.4rem;
                 width: 60px;
                 height: 17px;
             }
@@ -146,8 +150,9 @@ $breakpoints: (
 
         .navk-klinks {
             li {
-                padding: 0 10px;
+                padding: 0 2px;
             }
+
             a {
 
                 font-size: 0.73rem !important;
@@ -156,6 +161,7 @@ $breakpoints: (
 
         .btn {
             text-decoration: none !important;
+            margin-right: 2%;
 
             button {
                 font-size: 0.5rem;
@@ -175,6 +181,9 @@ $breakpoints: (
         }
 
         .navk-klinks {
+            li {
+                margin: 0 4px;
+            }
             a {
 
                 font-size: 0.86rem !important;
@@ -183,6 +192,7 @@ $breakpoints: (
 
         .btn {
             text-decoration: none !important;
+            margin-right: 2%;
 
             button {
                 font-size: 0.6rem;
@@ -202,6 +212,9 @@ $breakpoints: (
         }
 
         .navk-klinks {
+            li {
+                margin: 0 6px;
+            }
             a {
 
                 font-size: 0.95rem !important;
@@ -210,6 +223,7 @@ $breakpoints: (
 
         .btn {
             text-decoration: none !important;
+            margin-right: 2%;
 
             button {
                 font-size: 0.7rem;
@@ -224,11 +238,16 @@ $breakpoints: (
         height: 3.85rem;
         width: 100%;
 
-        .logo img {
+        .logo {
+            margin-left: 6%;
+             img {
             height: 50px;
         }
-
+    }
         .navk-klinks {
+            li {
+                margin: 0 8px;
+            }
             a {
 
                 font-size: 1.1rem;
@@ -237,6 +256,7 @@ $breakpoints: (
 
         .btn {
             text-decoration: none !important;
+            margin-right: 6%;
 
             button {
                 font-size: 0.7rem;
@@ -251,11 +271,18 @@ $breakpoints: (
         height: 4rem;
         width: 100%;
 
-        .logo img {
-            height: 57px;
+        .logo {
+            margin-left: 7.2%;
+
+            img {
+                height: 57px;
+            }
         }
 
         .navk-klinks {
+            li {
+                margin: 0 10px;
+            }
             a {
 
                 font-size: 1.3rem !important;
@@ -264,6 +291,7 @@ $breakpoints: (
 
         .btn {
             text-decoration: none !important;
+            margin-right: 7.2%;
 
             button {
                 font-size: 0.7rem;
@@ -278,11 +306,18 @@ $breakpoints: (
         height: 4.15rem;
         width: 100%;
 
-        .logo img {
-            height: 60px;
+        .logo {
+            margin-left: 7.6%;
+
+            img {
+                height: 60px;
+            }
         }
 
         .navk-klinks {
+            li {
+                margin: 0 10px;
+            }
             a {
 
                 font-size: 1.5rem !important;
@@ -291,6 +326,7 @@ $breakpoints: (
 
         .btn {
             text-decoration: none !important;
+            margin-right: 7.6%;
 
             button {
                 font-size: 1rem;
@@ -305,11 +341,19 @@ $breakpoints: (
         height: 4.3rem;
         width: 100%;
 
-        .logo img {
-            height: 62x;
+        .logo {
+            margin-left: 8%;
+
+            img {
+                height: 62px;
+            }
         }
 
+
         .navk-klinks {
+            li {
+                margin: 0 15px;
+            }
             a {
 
                 font-size: 1.7rem !important;
@@ -318,6 +362,7 @@ $breakpoints: (
 
         .btn {
             text-decoration: none !important;
+            margin-right: 8% !important;
 
             button {
                 font-size: 1.08rem;
