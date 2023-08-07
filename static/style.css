@@ -254,7 +254,7 @@
   }
   .kheader .btn button {
     font-size: 0.4rem;
-    width: 60px;
+    width: 50px;
     height: 17px;
   }
 }
@@ -294,7 +294,7 @@
     margin: 0 4px;
   }
   .kheader .navk-klinks a {
-    font-size: 1rem !important;
+    font-size: 1.3rem !important;
   }
   .kheader .btn {
     text-decoration: none !important;
@@ -318,7 +318,7 @@
     margin: 0 6px;
   }
   .kheader .navk-klinks a {
-    font-size: 0.95rem !important;
+    font-size: 1.4rem !important;
   }
   .kheader .btn {
     text-decoration: none !important;
@@ -345,7 +345,7 @@
     margin: 0 8px;
   }
   .kheader .navk-klinks a {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
   .kheader .btn {
     text-decoration: none !important;
@@ -372,7 +372,7 @@
     margin: 0 10px;
   }
   .kheader .navk-klinks a {
-    font-size: 1.3rem !important;
+    font-size: 1.6rem !important;
   }
   .kheader .btn {
     text-decoration: none !important;
@@ -399,7 +399,7 @@
     margin: 0 10px;
   }
   .kheader .navk-klinks a {
-    font-size: 1.5rem !important;
+    font-size: 1.7rem !important;
   }
   .kheader .btn {
     text-decoration: none !important;
@@ -426,7 +426,7 @@
     margin: 0 15px;
   }
   .kheader .navk-klinks a {
-    font-size: 1.7rem !important;
+    font-size: 1.8rem !important;
   }
   .kheader .btn {
     text-decoration: none !important;
