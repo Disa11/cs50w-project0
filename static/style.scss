@@ -89,25 +89,25 @@ body {
         font-size: 0.6rem;
     }
     @include media-up(xxs){
-        font-size: 0.6rem;
+        font-size: 0.9rem;
     }
     @include media-up(xs){
-        font-size: 0.8rem;
+        font-size: 1.3rem;
     }
     @include media-up(sm){
-        font-size: 1rem;
+        font-size: 1.7rem;
     }
     @include media-up(md){
-        font-size: 1.4rem;
-    }
-    @include media-up(lg){
         font-size: 1.9rem;
     }
-    @include media-up(xl){
+    @include media-up(lg){
         font-size: 2.2rem;
     }
+    @include media-up(xl){
+        font-size: 2.6rem;
+    }
     @include media-up(xxl){
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 }
 
