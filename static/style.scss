@@ -13,7 +13,7 @@
 $breakpoints: (
     xxxs: 0px,
     xxs: 200px,
-    xs: 310px,
+    xs: 310x,
     sm: 576px,
     md: 768px,
     lg: 992px,
@@ -122,6 +122,9 @@ body {
         color: aliceblue;
         font-size: 1.5rem;
     }
+}
+.w2::selection {
+    color: red;
 }
 
 
