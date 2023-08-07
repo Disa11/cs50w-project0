@@ -107,7 +107,7 @@ $breakpoints: (
     }
 
     @include media-up(xxxs) {
-        height: 3.35rem;
+        height: 3.50em;
         width: 100% !important;
         padding: 2% 3% !important;
 
@@ -125,7 +125,7 @@ $breakpoints: (
 
             a {
 
-                font-size: 0.7rem !important;
+                font-size: 0.8rem !important;
             }
         }
 
@@ -142,7 +142,7 @@ $breakpoints: (
     }
 
     @include media-up(xxs) {
-        height: 3.40rem;
+        height: 3.62rem;
         width: 100%;
 
         .logo img {
@@ -156,7 +156,7 @@ $breakpoints: (
 
             a {
 
-                font-size: 0.9rem !important;
+                font-size: 1.2rem !important;
             }
         }
 
@@ -174,7 +174,7 @@ $breakpoints: (
     }
 
     @include media-up(xs) {
-        height: 3.55rem;
+        height: 3.71rem;
         width: 100%;
 
         .logo img {
@@ -206,7 +206,7 @@ $breakpoints: (
     }
 
     @include media-up(sm) {
-        height: 3.70rem;
+        height: 3.84rem;
         width: 100%;
 
         .logo img {
@@ -238,7 +238,7 @@ $breakpoints: (
     }
 
     @include media-up(md) {
-        height: 3.85rem;
+        height: 3.9rem;
         width: 100%;
 
         .logo {
@@ -274,7 +274,7 @@ $breakpoints: (
     }
 
     @include media-up(lg) {
-        height: 4rem;
+        height: 4.1rem;
         width: 100%;
 
         .logo {
@@ -310,7 +310,7 @@ $breakpoints: (
     }
 
     @include media-up(xl) {
-        height: 4.15rem;
+        height: 4.2rem;
         width: 100%;
 
         .logo {
@@ -346,7 +346,7 @@ $breakpoints: (
     }
 
     @include media-up(xxl) {
-        height: 4.3rem;
+        height: 4.312rem;
         width: 100%;
 
         .logo {
