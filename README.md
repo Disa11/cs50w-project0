@@ -31,11 +31,6 @@ Esta página se realizo tomando en cuenta los requerimientos solicitados por el 
 
 ### Más en detalle
 
-En la estructura completa del sitio se uso <b>HTML</b>, <b>CSS</b> para darle un estilo personalizado a cada una de las etiquetas y elementos de la página, <b>SASS</b> 
-para obtener un código de estilo mas claro y legible, <b>JavaScript</b> se utilizo para hacer que las tarjetas de la Landing Page no se llenara de tanto texto, usando la propiedad <b>`style.display === "none"`</b> y <b>`style.display = "inline"`</b> para ocultar y mostrar parte del texto de la tarjeta y mostrarlo al tocar un botón, haciendo uso de id's, solamente fue con propositos de estética.
 
-De igual forma se uso la función scroll <b>`ScrollTop`</b> con JavaScript para que al momento de desplazarce el navbar cambie de color, <b>Cambios con propositos de estética</b>.
 
 ### Proceso
-
-Todo el proceso de la creación de esta página se fue documentando con <b>GIT</b> y en cada uno de los commits podran ver desde la etapa inicial hasta la final.
