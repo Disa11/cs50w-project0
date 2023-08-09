@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Muli");
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 .kanuthcontainer {
   position: absolute;
   width: 24rem;
@@ -569,7 +568,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Lobster Two", cursive;
+  font-family: "Caveat", cursive;
 }
 .w2-text {
   font-family: "Open Sans", sans-serif;
