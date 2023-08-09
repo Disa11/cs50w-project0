@@ -1,14 +1,15 @@
 @mixin tag-center {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 %text-letter {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Lobster Two',cursive !important;
+}
+ul {
+    margin-bottom: 0 !important;
 }
 
 $breakpoints: (
@@ -37,7 +38,7 @@ $breakpoints: (
     height: 4.1rem;
     width: 100% !important;
     padding: 2% 15% !important;
-    margin-top: 1%;
+    margin-top: 1.5%;
 
     .logo {
         cursor: pointer; //margin auto
@@ -58,14 +59,16 @@ $breakpoints: (
         padding-top: 50% !important; //se lo agrege pq con el boostrap el navbar perdia las proporciones de centrado en la lista.
         padding-bottom: 50% !important;
         list-style: none;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
         font-size: 6.48px !important; //antes lo tenia con 280% pero boostrap me rompia el navbar, debido a eso la propiedad de importancia.
 
         li {
             padding: 0 20px;
             margin: 0 10px;
+            line-height: 0rem !important; 
         }
 
         li:hover {
@@ -109,7 +112,7 @@ $breakpoints: (
     @include media-up(xxxs) {
         height: 3.35rem;
         width: 100% !important;
-        padding: 2% 3% !important;
+        padding: 1% 1.5% !important;
 
         .logo 
         {
@@ -123,11 +126,14 @@ $breakpoints: (
             padding-left: 0;
             li {
                 padding: 0 0;
+                line-height: 0rem !important;
+                padding: 2.5% 0.3%;
             }
 
             a {
 
-                font-size: 0.845rem !important;
+                font-size: 0.8893rem !important;
+                padding: 0 2.5px;
             }
         }
 
@@ -135,7 +141,7 @@ $breakpoints: (
             text-decoration: none !important;
             margin-right: 0.5%;
             button {
-                font-size: 0.4rem;
+                font-size: 0.782rem;
                 width: 60px;
                 height: 17px;
             }
@@ -156,11 +162,14 @@ $breakpoints: (
         .navk-klinks {
             li {
                 padding: 0 2px;
+                line-height: 0rem !important;
+                padding: 3% 0.5%; //acordarse de colocarlo en todos los include
             }
 
             a {
 
-                font-size: 0.95rem !important;
+                font-size: 1.1rem !important;
+                
             }
         }
 
@@ -169,7 +178,7 @@ $breakpoints: (
             margin-right: 1%;
 
             button {
-                font-size: 0.5rem;
+                font-size: 0.7856rem;
                 height: 19px;
                 width: 67px;
             }
@@ -192,6 +201,8 @@ $breakpoints: (
         .navk-klinks {
             li {
                 margin: 0 4px;
+                line-height: 0rem !important;
+                padding: 2% 10px;
             }
             a {
 
@@ -204,9 +215,9 @@ $breakpoints: (
             margin-right: 1.5%;
 
             button {
-                font-size: 0.6rem;
+                font-size: 0.9rem;
                 width: 81px;
-                height: 21px;
+                height: 25px;
             }
 
         }
@@ -225,10 +236,12 @@ $breakpoints: (
         .navk-klinks {
             li {
                 margin: 0 6px;
+                line-height: 0rem !important;
+                padding: 1.2% 15px;
             }
             a {
 
-                font-size: 1.25rem !important;
+                font-size: 1.602rem !important;
             }
         }
 
@@ -237,8 +250,8 @@ $breakpoints: (
             margin-right: 2%;
 
             button {
-                font-size: 0.7rem;
-                height: 23px;
+                font-size: 0.925rem;
+                height: 27px;
                 width: 95px;
             }
 
@@ -258,10 +271,12 @@ $breakpoints: (
         .navk-klinks {
             li {
                 margin: 0 8px;
+                line-height: 0rem !important;
+                padding: 0.4% 17px;
             }
             a {
 
-                font-size: 1.35rem;
+                font-size: 1.625rem;
             }
         }
 
@@ -270,8 +285,8 @@ $breakpoints: (
             margin-right: 6%;
 
             button {
-                font-size: 0.7rem;
-                height: 25px;
+                font-size: 1.125rem;
+                height: 30px;
                 width: 105px;
             }
 
@@ -293,10 +308,12 @@ $breakpoints: (
         .navk-klinks {
             li {
                 margin: 0 10px;
+                line-height: none !important;
+                padding: 0 20px;
             }
             a {
 
-                font-size: 1.55rem !important;
+                font-size: 1.711rem !important;
             }
         }
 
@@ -305,8 +322,8 @@ $breakpoints: (
             margin-right: 7.2%;
 
             button {
-                font-size: 0.7rem;
-                height: 27px;
+                font-size: 1.24rem;
+                height: 32px;
                 width: 113px;
             }
 
@@ -328,10 +345,12 @@ $breakpoints: (
         .navk-klinks {
             li {
                 margin: 0 10px;
+                padding: 0 20px;
+                line-height: 0rem !important;
             }
             a {
 
-                font-size: 1.62rem !important;
+                font-size: 1.75rem !important;
             }
         }
 
@@ -340,9 +359,9 @@ $breakpoints: (
             margin-right: 7.6%;
 
             button {
-                font-size: 1rem;
+                font-size: 1.258rem;
                 width: 120px;
-                height: 29px;
+                height: 35px;
             }
 
         }
@@ -364,10 +383,12 @@ $breakpoints: (
         .navk-klinks {
             li {
                 margin: 0 15px;
+                line-height: 0rem !important;
+                padding: 0 20px;
             }
             a {
 
-                font-size: 1.75rem !important;
+                font-size: 1.8rem !important;
             }
         }
 
@@ -376,8 +397,8 @@ $breakpoints: (
             margin-right: 8% !important;
 
             button {
-                font-size: 1.08rem;
-                height: 32px !important;
+                font-size: 1.3rem;
+                height: 38px !important;
                 width: 130px !important;
             }
 
