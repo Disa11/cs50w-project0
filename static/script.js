@@ -1,3 +1,5 @@
+var preloader = document.getElementById("preloader");
+const element = document.getElementsByClassName("tagvisibility");
 
 function loader() {
   preloader.style.display = "none";
@@ -7,8 +9,5 @@ function loader() {
     element[i].style.visibility = "visible"
   }
 }
-
-var preloader = document.getElementById("preloader");
-const element = document.getElementsByClassName("tagvisibility");
 
 window.addEventListener("load", setTimeout(loader, 500)); //Funcion para mostrar aunque sea un segundo la animacion xd ya que la pagina aun no e smuy pesada
