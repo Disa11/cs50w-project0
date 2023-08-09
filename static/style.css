@@ -163,6 +163,10 @@
   font-family: "Lobster Two", cursive !important;
 }
 
+ul {
+  margin-bottom: 0 !important;
+}
+
 .kheader {
   display: flex;
   justify-content: center !important;
@@ -191,8 +195,9 @@
   padding-top: 50% !important;
   padding-bottom: 50% !important;
   list-style: none;
-  display: flex;
-  justify-content: center;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
   flex-wrap: wrap !important;
   font-size: 6.48px !important;
 }
@@ -319,7 +324,7 @@
   .kheader .btn button {
     font-size: 0.9rem;
     width: 81px;
-    height: 24px;
+    height: 25px;
   }
 }
 @media screen and (min-width: 576px) {
@@ -347,7 +352,7 @@
   }
   .kheader .btn button {
     font-size: 0.925rem;
-    height: 23px;
+    height: 27px;
     width: 95px;
   }
 }
@@ -376,7 +381,7 @@
   }
   .kheader .btn button {
     font-size: 1.125rem;
-    height: 25px;
+    height: 30px;
     width: 105px;
   }
 }
@@ -405,7 +410,7 @@
   }
   .kheader .btn button {
     font-size: 1.24rem;
-    height: 27px;
+    height: 32px;
     width: 113px;
   }
 }
@@ -435,7 +440,7 @@
   .kheader .btn button {
     font-size: 1.258rem;
     width: 120px;
-    height: 29px;
+    height: 35px;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -463,7 +468,7 @@
   }
   .kheader .btn button {
     font-size: 1.3rem;
-    height: 32px !important;
+    height: 38px !important;
     width: 130px !important;
   }
 }

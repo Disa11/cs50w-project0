@@ -8,6 +8,9 @@
     box-sizing: border-box;
     font-family: 'Lobster Two',cursive !important;
 }
+ul {
+    margin-bottom: 0 !important;
+}
 
 $breakpoints: (
     xxxs: 0px,
@@ -56,8 +59,9 @@ $breakpoints: (
         padding-top: 50% !important; //se lo agrege pq con el boostrap el navbar perdia las proporciones de centrado en la lista.
         padding-bottom: 50% !important;
         list-style: none;
-        display: flex;
-        justify-content: center;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
         flex-wrap: wrap !important;
         font-size: 6.48px !important; //antes lo tenia con 280% pero boostrap me rompia el navbar, debido a eso la propiedad de importancia.
 
@@ -213,7 +217,7 @@ $breakpoints: (
             button {
                 font-size: 0.9rem;
                 width: 81px;
-                height: 24px;
+                height: 25px;
             }
 
         }
@@ -247,7 +251,7 @@ $breakpoints: (
 
             button {
                 font-size: 0.925rem;
-                height: 23px;
+                height: 27px;
                 width: 95px;
             }
 
@@ -282,7 +286,7 @@ $breakpoints: (
 
             button {
                 font-size: 1.125rem;
-                height: 25px;
+                height: 30px;
                 width: 105px;
             }
 
@@ -319,7 +323,7 @@ $breakpoints: (
 
             button {
                 font-size: 1.24rem;
-                height: 27px;
+                height: 32px;
                 width: 113px;
             }
 
@@ -357,7 +361,7 @@ $breakpoints: (
             button {
                 font-size: 1.258rem;
                 width: 120px;
-                height: 29px;
+                height: 35px;
             }
 
         }
@@ -394,7 +398,7 @@ $breakpoints: (
 
             button {
                 font-size: 1.3rem;
-                height: 32px !important;
+                height: 38px !important;
                 width: 130px !important;
             }
 
