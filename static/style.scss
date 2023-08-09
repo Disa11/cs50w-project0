@@ -1,13 +1,12 @@
 @use 'preloader';
 @use 'navbar';
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 
 @mixin text-letter {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Caveat', cursive;
 }
 
 $breakpoints: (
