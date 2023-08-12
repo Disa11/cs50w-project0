@@ -175,6 +175,48 @@ body {
     justify-content: center;
     padding: 30%;
 
+    &-2 {
+        @include media-up(xxxs) {
+            font-size: 0.5rem;
+            padding: 3% 17.5% 3% 3%;
+        }
+    
+        @include media-up(xxs) {
+            font-size: 0.6rem;
+            padding: 4% 18% 4% 4%; 
+        }
+    
+        @include media-up(xs) {
+            font-size: 0.85rem;
+            padding: 5% 18% 5% 5%;
+        }
+    
+        @include media-up(sm) {
+            font-size: 1.1rem;
+            padding: 20%;
+        }
+    
+        @include media-up(md) {
+            font-size: 1.26rem;
+            padding: 27%;
+        }
+    
+        @include media-up(lg) {
+            font-size: 1.35rem;
+            padding: 30%;
+        }
+    
+        @include media-up(xl) {
+            font-size: 1.45rem;
+            padding: 30%;
+        }
+    
+        @include media-up(xxl) {
+            font-size: 1.5rem;
+            padding: 30%;
+        }
+    }
+
     @include media-up(xxxs) {
         font-size: 0.5rem;
         padding: 3% 3% 3% 17.5%;

@@ -511,6 +511,35 @@ ul {
   box-shadow: inset 16px 14px 20px rgb(195, 169, 255);
 }
 
+.cardbox2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(128, 74, 255);
+  border-radius: 10px;
+  box-shadow: 16px 14px 20px black;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+}
+.cardbox2 h4 {
+  color: black;
+  z-index: 2;
+  background-color: transparent;
+}
+
+.cardbox2::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(128, 74, 255);
+  height: 85%;
+  width: 98%;
+  border-radius: 10px;
+  box-shadow: inset 16px 14px 20px rgb(195, 169, 255);
+}
+
 body {
   font-size: 40.5%;
   background: linear-gradient(270deg, #5b3bdb, #907ae8, #9286c5, #c7bcf7, #c7bcf7, #7f67e4, #ac9fe1);
@@ -665,6 +694,54 @@ body {
   align-items: center;
   justify-content: center;
   padding: 30%;
+}
+@media screen and (min-width: 0px) {
+  .body-text-2 {
+    font-size: 0.5rem;
+    padding: 3% 17.5% 3% 3%;
+  }
+}
+@media screen and (min-width: 200px) {
+  .body-text-2 {
+    font-size: 0.6rem;
+    padding: 4% 18% 4% 4%;
+  }
+}
+@media screen and (min-width: 310px) {
+  .body-text-2 {
+    font-size: 0.85rem;
+    padding: 5% 18% 5% 5%;
+  }
+}
+@media screen and (min-width: 576px) {
+  .body-text-2 {
+    font-size: 1.1rem;
+    padding: 20%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .body-text-2 {
+    font-size: 1.26rem;
+    padding: 27%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .body-text-2 {
+    font-size: 1.35rem;
+    padding: 30%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .body-text-2 {
+    font-size: 1.45rem;
+    padding: 30%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .body-text-2 {
+    font-size: 1.5rem;
+    padding: 30%;
+  }
 }
 @media screen and (min-width: 0px) {
   .body-text {
