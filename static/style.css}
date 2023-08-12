@@ -473,8 +473,8 @@ ul {
 }
 
 .cardbox {
-  height: 100%;
-  width: 100%;
+  height: 110%;
+  width: 110%;
   border-radius: 10px;
   box-shadow: 16px 14px 20px black;
   position: relative;
@@ -509,67 +509,6 @@ ul {
   width: 100%;
   border-radius: 10px;
   box-shadow: inset 16px 14px 20px rgb(195, 169, 255);
-}
-
-.cardbox2 {
-  height: 100%;
-  width: 100%;
-  background-color: rgb(128, 74, 255);
-  border-radius: 10px;
-  box-shadow: 16px 14px 20px black;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1%;
-}
-.cardbox2 h4 {
-  color: black;
-  z-index: 2;
-  background-color: transparent;
-}
-
-.cardbox2::after {
-  content: "";
-  position: absolute;
-  background-color: rgb(128, 74, 255);
-  height: 85%;
-  width: 98%;
-  border-radius: 10px;
-  box-shadow: inset 16px 14px 20px rgb(195, 169, 255);
-}
-
-.cardbox3::after {
-  content: "";
-  position: absolute;
-  height: 80%;
-  width: 80%;
-  border-radius: 10px;
-  box-shadow: inset 16px 14px 20px rgb(212, 188, 243);
-}
-
-.cardbox3 {
-  height: 75%;
-  width: 75%;
-  border-radius: 10px;
-  box-shadow: 16px 14px 20px black;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 1%;
-}
-
-.cardbox3::after {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: inset 16px 14px 20px rgba(120, 167, 255, 0.692);
 }
 
 body {
@@ -720,128 +659,52 @@ body {
   color: red;
 }
 
-.body-text {
+h3 .body-text {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 30%;
+  padding: 20%;
 }
 @media screen and (min-width: 0px) {
-  .body-text-2 {
-    font-size: 0.5rem;
-    padding: 3% 17.5% 3% 3%;
+  h3 .body-text {
+    font-size: 0.6rem;
   }
 }
 @media screen and (min-width: 200px) {
-  .body-text-2 {
+  h3 .body-text {
     font-size: 0.6rem;
-    padding: 4% 18% 4% 4%;
   }
 }
 @media screen and (min-width: 310px) {
-  .body-text-2 {
-    font-size: 0.85rem;
-    padding: 5% 18% 5% 5%;
+  h3 .body-text {
+    font-size: 0.9rem;
   }
 }
 @media screen and (min-width: 576px) {
-  .body-text-2 {
+  h3 .body-text {
     font-size: 1.1rem;
-    padding: 20%;
   }
 }
 @media screen and (min-width: 768px) {
-  .body-text-2 {
+  h3 .body-text {
     font-size: 1.26rem;
-    padding: 27%;
   }
 }
 @media screen and (min-width: 992px) {
-  .body-text-2 {
+  h3 .body-text {
     font-size: 1.35rem;
-    padding: 30%;
   }
 }
 @media screen and (min-width: 1200px) {
-  .body-text-2 {
+  h3 .body-text {
     font-size: 1.45rem;
-    padding: 30%;
   }
 }
 @media screen and (min-width: 1400px) {
-  .body-text-2 {
+  h3 .body-text {
     font-size: 1.5rem;
-    padding: 30%;
-  }
-}
-@media screen and (min-width: 0px) {
-  .body-text {
-    font-size: 0.5rem;
-    padding: 3% 3% 3% 17.5%;
-  }
-}
-@media screen and (min-width: 200px) {
-  .body-text {
-    font-size: 0.6rem;
-    padding: 4% 4% 4% 18%;
-  }
-}
-@media screen and (min-width: 310px) {
-  .body-text {
-    font-size: 0.85rem;
-    padding: 5% 5% 5% 18%;
-  }
-}
-@media screen and (min-width: 576px) {
-  .body-text {
-    font-size: 1.1rem;
-    padding: 20%;
-  }
-}
-@media screen and (min-width: 768px) {
-  .body-text {
-    font-size: 1.26rem;
-    padding: 27%;
-  }
-}
-@media screen and (min-width: 992px) {
-  .body-text {
-    font-size: 1.35rem;
-    padding: 30%;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .body-text {
-    font-size: 1.45rem;
-    padding: 30%;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .body-text {
-    font-size: 1.5rem;
-    padding: 30%;
   }
 }
 
-.video {
-  width: 50%;
-  position: relative;
-}
-
-.video::after {
-  content: "";
-  display: block;
-  width: 100%;
-  padding-bottom: 56.25%;
-}
-
-.escode video {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css%7D.map */
