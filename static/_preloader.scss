@@ -2,6 +2,23 @@
 $waveDur: 1600ms;
 $text-Dur: 800ms;
 
+$breakpoints: (
+    xxxs: 0px,
+    xxs: 200px,
+    xs: 328x,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+);
+
+@mixin media-up($breakpoint) {
+    @media screen and (min-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+    }
+}
+
 .kanuthcontainer{
     position: absolute;
     width: 24rem;

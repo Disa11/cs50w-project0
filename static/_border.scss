@@ -57,6 +57,7 @@
         background-color: transparent;
 
     }
+
 }
 
 .cardbox2::after {
@@ -67,4 +68,36 @@
     width: 98%;
     border-radius: 10px;
     box-shadow: inset 16px 14px 20px rgb(195, 169, 255);
+}
+
+.cardbox3::after {
+    content: "";
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: inset 16px 14px 20px rgb(212, 188, 243);
+}
+
+.cardbox3 {
+    height: 75%;
+    width: 75%;
+    border-radius: 10px;
+    box-shadow: 16px 14px 20px black;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+
+.cardbox3::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: inset 16px 14px 20px rgba(120, 167, 255, 0.692);
 }
